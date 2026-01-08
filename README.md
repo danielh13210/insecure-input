@@ -7,7 +7,7 @@ The input() function in Python 2 evaluates input as python code, which is a code
 # The challenge
 This is a shell escape challenge.
 The command to be used is:
-```__import__('os').system('/bin/bash')```
+```__import__('sys').stdout.write(str(token)+'\n')```
 Then print the file:
 ```cat secret.txt```
 Type the secret into the program to win
